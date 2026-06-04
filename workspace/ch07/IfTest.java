@@ -9,8 +9,11 @@ public class IfTest {
     if(num % 3 == 0) {
         System.out.println(num + "는 3의 배수입니다.");
     }
+    else if(num % 2 == 0){
+        System.out.println(num + "는 짝수입니다.");
+    }
     else{
-        System.out.println(num + "는 3의 배수가 아닙니다.");
+        System.out.println(num + ": 홀수입니다.");
     }
     }
 }

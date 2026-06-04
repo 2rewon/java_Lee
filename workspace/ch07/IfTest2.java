@@ -2,7 +2,7 @@ package ch07;
 
 public class IfTest2 {
     public static void main(String[] args) {
-        int month = 6;
+        int month = 2;
 
         if (month < 1 || month > 12) {
             System.out.println("1~12 사이의 숫자만 가능합니다.");
